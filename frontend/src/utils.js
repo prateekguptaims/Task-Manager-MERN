@@ -1,6 +1,6 @@
 
 
-export const API_URL='https://taskmanagerapi-navy.vercel.app';
+export const API_URL='https://task-manager-mern-weld.vercel.app/';
 
 import { toast } from "react-toastify";
 
