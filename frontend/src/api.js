@@ -8,6 +8,7 @@ export const CreateTask=async (taskobj)=>{
         headers:{
             'Content-Type':'application/json'
         },
+        mode: 'cors', // Ensure that 'cors' mode is set
         body:JSON.stringify(taskobj)
     };
     try {
@@ -25,6 +26,7 @@ export const GetAllTask=async ()=>{
         headers:{
             'Content-Type':'application/json'
         },
+        mode: 'cors', // Ensure that 'cors' mode is set
         
     };
     try {
@@ -42,6 +44,7 @@ export const DeleteTask=async (id)=>{
         headers:{
             'Content-Type':'application/json'
         },
+        mode: 'cors', // Ensure that 'cors' mode is set
         
     };
     try {
@@ -61,6 +64,7 @@ export const UpdateTask=async (id,reqbody)=>{
         headers:{
             'Content-Type':'application/json'
         },
+        mode: 'cors', // Ensure that 'cors' mode is set
         body:JSON.stringify(reqbody)
     };
     try {
