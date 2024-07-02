@@ -1,6 +1,6 @@
 
 
-export const API_URL='http://localhost:8080';
+export const API_URL='https://taskmanagerapi-navy.vercel.app/';
 
 import { toast } from "react-toastify";
 
